@@ -1,0 +1,43 @@
+.parent{
+    display: flex;
+    padding: 10px;
+}
+.homeintrotext{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.homeimage{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; 
+    margin: 10px;
+}
+.imagecourse{
+    height: 250px;
+}
+.coursetext{
+    font-size: 20px;
+    font-style: oblique;
+    background-color: gray;
+    margin-bottom: 0px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+}
+.parentc{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.avcou{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-feature-settings: "abvf";
+}
+.coursechild{
+    box-shadow: 0px 0px 1px 2px black;
+    width: 270px;
+    margin-bottom: 20px;
+}

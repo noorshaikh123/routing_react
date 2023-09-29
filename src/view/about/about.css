@@ -1,0 +1,30 @@
+.heading1{
+    text-align: center;
+}
+.heading{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+.parent{
+    display: flex;
+}
+.imagea{
+    height: 300px;
+    width: 300px;
+    border-radius: 25%;
+}
+.texta{
+    font-size: 25px;
+    margin-left: 40px;
+}
+.skillsparent{
+    display: flex;
+}
+.skillspic{
+    height: 100px;
+    margin: 10px;
+}
+.skillstext{
+    margin-left: 30px;
+}

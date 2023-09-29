@@ -1,0 +1,57 @@
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 5px;
+    position: relative;
+}
+.title{
+   font-size: 30px; 
+   font-family: fantasy;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.textinside{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.text{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.textinside:hover{
+ background-color: darkgoldenrod;
+ border-radius: 5%;
+ animation-name: textanim;
+ animation-duration: 4s;
+}
+
+@keyframes textanim{
+   0%{ transform: scale(1.1)}
+   100%{ transform: scale(1.12)}
+}
+.signin{
+    margin-top: 10px;
+    position: absolute;
+    right: 20px;
+    
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+.button:hover{
+    background-color: darkgoldenrod;
+    border-radius: 5%;
+    font-size: 21px;
+}
