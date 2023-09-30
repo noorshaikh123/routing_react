@@ -19,5 +19,10 @@ const variable_name = createBrowserRouter(
 )
 ```
 Inside root.render<br/>
-`<RouterProvider router={variable_name}/>`
-![Homepage](screenshot(98))
+`<RouterProvider router={variable_name}/>`<br/><br/>
+## <u>Homepage</u>
+![Homepage](Screenshot1.png)
+<br/><br/>![Homepage](Screenshot3.png)
+<br/><br/>
+## <u>Signin Page</u>
+![Homepage](Screenshot2.png)
